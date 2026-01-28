@@ -7,10 +7,6 @@ tar -xvf ~/java_tar -C ~/mc-java --strip-components=1
 
 wget https://skmedix.pl/binaries/skl/3.2.18/SKlauncher-3.2.18.jar -O ~/minecraft.jar
 
-wget https://files.catbox.moe/2tokni.zip -O ~/mods.zip
-unzip ~/mods.zip -d ~/
-
 mkdir ~/.minecraft
-mv ~/mods ~/.minecraft
 
 ~/mc-java/bin/java -jar ~/minecraft.jar
